@@ -65,7 +65,7 @@ export default function Home({ recentArticles }) {
             </Button>
           </div>
           <div className="mt-16">
-            <Subscribe size={SubscribeSize.LARGE} />
+<!--             <Subscribe size={SubscribeSize.LARGE} /> -->
           </div>
         </div>
       </div>
