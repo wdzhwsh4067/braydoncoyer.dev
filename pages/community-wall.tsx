@@ -38,11 +38,11 @@ export default function CommunityWall({ session, supabase, messages }) {
         session={session}
       />
       <div className="mt-12">
-        {entries.messages?.map((message) => (
+<!--         {entries.messages?.map((message) => (
           <div className="mt-8" key={message.id}>
             <CommunityEntry message={message} session={session} />
           </div>
-        ))}
+        ))} -->
       </div>
     </Container>
   );
