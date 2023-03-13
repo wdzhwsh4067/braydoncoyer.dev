@@ -363,7 +363,7 @@ const ArticlePage = ({
             <div className="md:hidden">
               <Reactions slug={slug} />
             </div>
-            <Subscribe size={SubscribeSize.LARGE} />
+<!--             <Subscribe size={SubscribeSize.LARGE} /> -->
             {/* Link to sponsor if applicable */}
             {sponsoredArticleUrl && (
               <Callout>
@@ -391,7 +391,7 @@ const ArticlePage = ({
                 Back to the blog
               </Button>
               <div className="md:hidden">
-                <ShareArticle title={title} slug={slug} />
+<!--                 <ShareArticle title={title} slug={slug} /> -->
               </div>
             </div>
 
